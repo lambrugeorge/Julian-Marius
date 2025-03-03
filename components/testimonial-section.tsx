@@ -5,19 +5,19 @@ const testimonials = [
   {
     name: "Sophie L.",
     text: "Pizzas are delicious and the ingredients are of high quality.",
-    image: "/sophie.jpg", // Calea corectă către poza lui Sophie
+    image: "/sophie.avif", // Calea corectă către poza lui Sophie
     rating: 5,
   },
   {
     name: "Marco D.",
     text: "Quick service and a friendly atmosphere. My favorite food truck in Ahetze!",
-    image: "/marco.jpg", // Calea corectă către poza lui Marco
+    image: "/marco.avif", // Calea corectă către poza lui Marco
     rating: 5,
   },
   {
     name: "Marie C.",
     text: "I really appreciate the vegetarian option, it's tasty and filling. Thank you Julian & Marius!",
-    image: "/marie.jpg", // Calea corectă către poza lui Marie
+    image: "/marie.avif", // Calea corectă către poza lui Marie
     rating: 4,
   },
 ]

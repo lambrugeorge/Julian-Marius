@@ -8,48 +8,48 @@ import { Button } from "@/components/ui/button"
 const beachMenu = [
   {
     name: "MARGHERITA",
-    description: "SAUCE TOMATE, DOUBLE FROMAGE (EMMENTAL, MOZZARELLA), OLIVES",
-    image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002",
+    description: "",
+    image: "margherita.avif",
   },
   {
     name: "CHORIZO",
-    description: "SAUCE TOMATE, CHORIZO, POIVRONS, FROMAGE, OLIVES",
-    image: "https://images.unsplash.com/photo-1628840042765-356cda07504e",
+    description: "",
+    image: "chorizo.avif",
   },
   {
     name: "VÉGÉTARIENNE",
-    description: "SAUCE TOMATE, TOMATES FRAICHES, CHAMPIGNONS, POIVRONS, FROMAGE, OLIVES",
-    image: "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94",
+    description: "",
+    image: "vegetariane.avif",
   },
   {
     name: "KEBAB",
-    description: "CRÈME FRAÎCHE, TOMATES FRAICHES, POIVRONS, OIGNONS, VIANDE KEBAB, SAUCE KEBAB, FROMAGE",
-    image: "https://images.unsplash.com/photo-1588315029754-2dd089d39a1a",
+    description: "",
+    image: "pizza-kebap.avif",
   },
   {
     name: "ROUMAINE",
-    description: "SPÉCIALITÉS PIZZA ROUMAINES",
-    image: "romaneasca.jpg",
+    description: "",
+    image: "romaneasca.avif",
   },
   {
     name: "BOEUF HACHÉ",
-    description: "BOEUF HACHÉ, OIGNONS CARAMÉLISÉS, FROMAGE, SAUCE BARBECUE",
-    image: "https://images.unsplash.com/photo-1601924582970-9238bcb495d9",
+    description: "",
+    image: "beouf hache.avif",
   },
   {
     name: "CRÊPES",
-    description: "CRÊPES MAISON AVEC CHOCOLAT, CONFITURE OU SUCRE",
-    image: "crepes.jpg",
+    description: "",
+    image: "crepes.avif",
   },
   {
     name: "BEIGNETS",
-    description: "BEIGNETS SAUPOUDRÉS DE SUCRE GLACE",
-    image: "beignet.jpg",
+    description: "",
+    image: "beignet.avif",
   },
   {
     name: "GAUFRES",
-    description: "GAUFRES BELGES AVEC CHANTILLY OU FRUITS FRAIS",
-    image: "gofre.jpg",
+    description: "",
+    image: "gofre.avif",
   }
 ]
 
@@ -57,28 +57,28 @@ const beachMenu = [
 const parkingMenu = [
   {
     name: "BURGERS",
-    description: "Burgers maison avec steak haché, fromage, salade et sauce spéciale",
-    image: "burger.jpg",
+    description: "",
+    image: "burger.avif",
   },
   {
     name: "SANDWICH",
-    description: "Sandwich baguette garni au choix : jambon, fromage, crudités",
-    image: "sandwich.jpg",
+    description: "",
+    image: "sandwich.avif",
   },
   {
     name: "MOULES-FRITES",
-    description: "Moules fraîches servies avec des frites croustillantes",
-    image: "moules.jpg",
+    description: "",
+    image: "moules.avif",
   },
   {
     name: "KEBAB",
-    description: "Pain pita garni de viande kebab, crudités et sauce au choix",
-    image: "kebab.jpg",
+    description: "",
+    image: "kebab.avif",
   },
   {
     name: "BOISSONS",
-    description: "Sodas, jus de fruits, bières et boissons chaudes",
-    image: "boisons.jpg",
+    description: "",
+    image: "boisons.avif",
   }
 ]
 
@@ -164,7 +164,7 @@ export default function FullMenu() {
         bgColor="bg-black"
         textColor="text-white"
         buttonColor="bg-red-600 hover:bg-red-700"
-        image="/plage.webp"
+        image="/plage.avif"
       />
 
       {/* Sectiunea Parking */}
@@ -174,7 +174,7 @@ export default function FullMenu() {
         bgColor="bg-gray-100"
         textColor="text-gray-900"
         buttonColor="bg-blue-600 hover:bg-blue-700"
-        image="/parking.jpg"
+        image="/parking.avif"
       />
     </main>
   )

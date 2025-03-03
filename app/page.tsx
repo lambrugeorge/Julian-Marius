@@ -12,7 +12,7 @@ export default function Home() {
       {/* Hero Section */}
       <header className="relative flex flex-col items-center justify-center overflow-hidden bg-black text-white h-screen">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iulian.jpg-5mq2aWpEXo5tjkkXws1Rn4zcS9q8tJ.jpeg"
+          src="/coperta.jpeg"
           alt="Julian & Marius Food Truck"
           fill
           className="object-cover opacity-50"
@@ -23,10 +23,10 @@ export default function Home() {
           <div className="mx-auto mb-6 w-32 md:w-40">
             <div className="rounded-full bg-white p-2">
               <Image
-                src="logo.jpg"
+                src="/logo.avif"
                 alt="Julian & Marius Logo"
-                width={250}
-                height={150}
+                width={600}
+                height={450}
                 className="rounded-full"
               />
             </div>
@@ -64,14 +64,14 @@ export default function Home() {
 
             <div className="mb-10 grid grid-cols-1 gap-4 md:grid-cols-2">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iulian.jpg-5mq2aWpEXo5tjkkXws1Rn4zcS9q8tJ.jpeg"
+                src="/iulian.avif"
                 alt="Julian & Marius Food Truck"
                 width={600}
                 height={400}
                 className="rounded-lg object-cover shadow-md transition-transform duration-300 hover:scale-105"
               />
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/marius.jpg-LsNcStHVT1PJt7IYFmaUs3CocBY9xw.jpeg"
+                src="marius.avif"
                 alt="Julian & Marius Location"
                 width={600}
                 height={400}
@@ -211,7 +211,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex items-center">
               <div className="mr-3 h-10 w-10 overflow-hidden rounded-full">
-                <Image src="/placeholder.svg?height=40&width=40" alt="Julian & Marius Logo" width={40} height={40} />
+                <Image src="/logo.avif" alt="Julian & Marius Logo" width={40} height={40} />
               </div>
               <span className="font-serif text-xl font-bold">Julian & Marius</span>
             </div>
